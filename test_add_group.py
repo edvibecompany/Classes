@@ -18,7 +18,7 @@ def test_add_new_group():
     # Загрузка фото
     browser.element('[type=file]').type(
         os.path.abspath(
-            os.path.join(os.path.dirname(__file__), 'resources/foto.png')
+            os.path.join(os.path.dirname(__file__), 'resources/foto1.png')
         )
     )
     browser.element('.button-container:nth-child(2) .ui-button-base').click()
